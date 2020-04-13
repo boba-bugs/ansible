@@ -31,7 +31,7 @@ This list also establishes the order in which each plugin tries to parse an inve
    [inventory]
    enable_plugins = advanced_host_list, constructed, yaml
 
-The ``auto`` inventory plugin can be used to automatically determines which inventory plugin to use for a YAML configuration file. It can also be used for inventory plugins in a collection.
+The ``auto`` inventory plugin can be used to automatically determine which inventory plugin to use for a YAML configuration file. It can also be used for inventory plugins in a collection.
 
 To whitelist specific inventory plugins in a collection you need to use the fully qualified name:
 
